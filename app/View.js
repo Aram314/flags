@@ -91,7 +91,7 @@ export default class View {
         } else {
             countries.forEach((country, index) => {
                 let singleFlag = `
-                <div class="col-md-3 mb-1">
+                <div class="col-md-3 mb-2 col-sm-6">
                     <div class="card" id="btn${index}">
                         <div class="view overlay ">
                             <div class="card-body ">
